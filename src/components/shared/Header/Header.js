@@ -31,13 +31,13 @@ function AppHeader() {
               <Nav.Link as={NavLink} to="/">
                 Home
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/about">
+              <Nav.Link as={NavLink} to="/#">
                 About
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/contact">
+              <Nav.Link as={NavLink} to="/#">
                 Contact
               </Nav.Link>
-              <Nav.Link as={NavLink} className="btn" to="/auth/login">
+              <Nav.Link as={NavLink} className="btn" to="#">
                 Login
               </Nav.Link>
             </Nav>
