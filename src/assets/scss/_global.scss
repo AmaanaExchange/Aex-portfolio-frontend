@@ -1,0 +1,28 @@
+@import "./variables";
+
+body {
+  font-family: $ffPrimary;
+  color: $textPrimary;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  .container {
+    max-width: 1300px;
+  }
+  main {
+    // min-height: 10000px;
+  }
+  // material toolbar height
+  .MuiToolbar-root {
+    min-height: 60px !important;
+  }
+  #shadow-host-companion {
+    padding: 0;
+  }
+}
+
+// buttons
+
+.btn {
+  border-radius: 0.625rem;
+}
