@@ -1,4 +1,4 @@
-import { Button, Col, Container, Image, Row, Stack } from "react-bootstrap";
+import { Col, Container, Image, Row, Stack } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import LogoPartner1 from "../../assets/images/logo-partner-1.png";
 import LogoPartner2 from "../../assets/images/logo-partner-2.png";

@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { Button, Col, Container, Row, Stack } from "react-bootstrap";
 import IconScrollTo from "../../assets/images/icon-scroll-down.png";
 export const HomeWelcome = () => {

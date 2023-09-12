@@ -1,8 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import { Col, ListGroup, ListGroupItem, Row, Stack } from "react-bootstrap";
+import { Col, ListGroup, Row, Stack } from "react-bootstrap";
 
 import BrandLogo from "../../../assets/images/brand-logo.png";
 import { ReactComponent as IconFacebook } from "../../../assets/images/icon-Facebook.svg";
