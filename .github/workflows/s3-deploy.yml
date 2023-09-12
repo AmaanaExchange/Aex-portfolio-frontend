@@ -22,6 +22,6 @@ jobs:
       - name: Build React App
         run: npm install && npm run build 
       - name: Deploy app build to S3 bucket
-        run: aws s3 sync ./build s3://ttmikstories-admin-frontend --delete
+        run: aws s3 sync ./build s3://aex-portfolio --delete
       - name: Invalidate cache
         run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_DISTRIBUTION_ID }} --paths "/*"
