@@ -21,7 +21,7 @@ export const HomeWelcome = () => {
             </Stack>
           </Col>
           <a href="#our-partners" className="scroll-down d-flex justify-content-center my-5 py-5">
-            <img src={IconScrollTo} />
+            <img src={IconScrollTo} alt="scrol icon"/>
           </a>
         </Row>
       </Container>
