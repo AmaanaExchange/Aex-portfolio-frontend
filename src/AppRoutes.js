@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/Home";
-import CommingSoon from "./components/sections/Dialog";
+import CommingSoon from "./components/sections/CommingSoon";
 
 const AppRoutes = () => {
   return (
