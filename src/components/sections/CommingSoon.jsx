@@ -1,6 +1,6 @@
 import React from "react";
 
-const Dialog = () => {
+const CommingSoon = () => {
   return (
     <div>
       <div className="alert">
