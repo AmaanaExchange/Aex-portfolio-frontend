@@ -1,4 +1,4 @@
-import {  NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -16,10 +16,14 @@ function AppHeader() {
     });
   }, []);
   return (
-    <header className={`app-header ${scroll ? "sticky-top" : ""}`}>
+    <header className={`app-header ${"sticky-top"}`}>
       <Navbar expand="lg" className="bg-none" fixed="top" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand as={NavLink} to="/" className={`${scroll ? "p-0" : "ps-lg-4"}`}>
+          <Navbar.Brand
+            as={NavLink}
+            to="/"
+            className={`${scroll ? "p-0" : "ps-lg-4"}`}
+          >
             <Stack className="brand-logo" direction="horizontal">
               <BrandIcon style={{ maxWidth: 100 }} />
               <BrandLogoText />
@@ -28,16 +32,16 @@ function AppHeader() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link as={NavLink} to="/">
+              <Nav.Link as={NavLink} to="/coming-soon">
                 Home
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/#">
+              <Nav.Link as={NavLink} to="/coming-soon">
                 About
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/#">
+              <Nav.Link as={NavLink} to="/coming-soon">
                 Contact
               </Nav.Link>
-              <Nav.Link as={NavLink} className="btn" to="#">
+              <Nav.Link as={NavLink} className="btn" to="/coming-soon">
                 Login
               </Nav.Link>
             </Nav>

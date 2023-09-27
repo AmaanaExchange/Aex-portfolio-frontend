@@ -1,5 +1,6 @@
 import { Button, Col, Container, Row, Stack } from "react-bootstrap";
 import IconScrollTo from "../../assets/images/icon-scroll-down.png";
+import { Link } from "react-router-dom";
 export const HomeWelcome = () => {
   return (
     <section className="welcome-wrapper pb-0">
@@ -17,7 +18,8 @@ export const HomeWelcome = () => {
                 CBE-birr and more. With our user-friendly interface and innovative technology, we're dedicated to making cryptocurrency trading
                 simple, accessible, and beneficial for everyone!
               </p>
-              <Button className="float-start">Register Now</Button>
+              <Link to ="/coming-soon">
+              <Button className="float-start">Register Now</Button></Link>
             </Stack>
           </Col>
           <a href="#our-partners" className="scroll-down d-flex justify-content-center my-5 py-5">

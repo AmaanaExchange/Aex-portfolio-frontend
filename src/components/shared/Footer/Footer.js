@@ -18,19 +18,19 @@ function AppFooter() {
             <img src={BrandLogo} alt="brand logo" />
             <p>Take your crypto to the next level</p>
             <Stack className="social-icons" direction="horizontal" gap={2}>
-              <Link to="#">
+              <Link to="/coming-soon">
                 <IconFacebook />
               </Link>
-              <Link to="#">
+              <Link to="/coming-soon">
                 <IconTwitter />
               </Link>
-              <Link to="#">
+              <Link to="/coming-soon">
                 <IconInstagram />
               </Link>
-              <Link to="#">
+              <Link to="/coming-soon">
                 <IconLinkedIn />
               </Link>
-              <Link to="#">
+              <Link to="/coming-soon">
                 <IconYoutube />
               </Link>
             </Stack>
@@ -38,28 +38,28 @@ function AppFooter() {
           <Col lg={3}>
             <ListGroup>
               <label>Company</label>
-              <NavLink to="#">About Us</NavLink>
-              <NavLink to="#">Blog</NavLink>
-              <NavLink to="#">Careers</NavLink>
-              <NavLink to="#">Trust and Safety</NavLink>
+              <NavLink to="/coming-soon">About Us</NavLink>
+              <NavLink to="/coming-soon">Blog</NavLink>
+              <NavLink to="/coming-soon">Careers</NavLink>
+              <NavLink to="/coming-soon">Trust and Safety</NavLink>
             </ListGroup>
           </Col>
           <Col lg={3}>
             <ListGroup>
               <label>Support</label>
-              <NavLink to="#">Support Center</NavLink>
-              <NavLink to="#">Contact Us</NavLink>
-              <NavLink to="#">System Status</NavLink>
-              <NavLink to="#">Areas of Availability</NavLink>
+              <NavLink to="/coming-soon">Support Center</NavLink>
+              <NavLink to="/coming-soon">Contact Us</NavLink>
+              <NavLink to="/coming-soon">System Status</NavLink>
+              <NavLink to="/coming-soon">Areas of Availability</NavLink>
             </ListGroup>
           </Col>
           <Col lg={3}>
             <ListGroup>
               <label>Resources</label>
-              <NavLink to="#">Prices</NavLink>
-              <NavLink to="#">Site Widgets</NavLink>
-              <NavLink to="#">Tax</NavLink>
-              <NavLink to="#">Support</NavLink>
+              <NavLink to="/coming-soon">Prices</NavLink>
+              <NavLink to="/coming-soon">Site Widgets</NavLink>
+              <NavLink to="/coming-soon">Tax</NavLink>
+              <NavLink to="/coming-soon">Support</NavLink>
             </ListGroup>
           </Col>
         </Row>

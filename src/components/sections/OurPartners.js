@@ -13,52 +13,54 @@ import LogoRipple from "../../assets/images/logo-exchange-curreny-ripple.svg";
 export const OurPartners = () => {
   return (
     <>
-      <section className="our-partners" id="our-partners">
-        <Container>
-          <Row className="align-items-center">
-            <Col lg={4}>
-              <h1 className="section-title">Our Partners</h1>
-            </Col>
-            <Col md={8}>
-              <Stack className="partner-logos" gap={3}>
-                <Link to="#">
-                  <Image src={LogoPartner1}></Image>
-                </Link>
-                <Link to="#">
-                  <Image src={LogoPartner2}></Image>
-                </Link>
-                <Link to="#">
-                  <Image src={LogoPartner3}></Image>
-                </Link>
-                <Link to="#">
-                  <Image src={LogoPartner4}></Image>
-                </Link>
-                <Link to="#">
-                  <Image src={LogoPartner5}></Image>
-                </Link>
-              </Stack>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-      <section>
-        <Container>
-          <Row className="text-center">
-            <Col lg={3} md={6} sm={6}>
-              <Image src={LogoEthereum}></Image>
-            </Col>
-            <Col lg={3} md={6} sm={6}>
-              <Image src={LogoBitcoin}></Image>
-            </Col>
-            <Col lg={3} md={6} sm={6}>
-              <Image src={LogoTether}></Image>
-            </Col>
-            <Col lg={3} md={6} sm={6}>
-              <Image src={LogoRipple}></Image>
-            </Col>
-          </Row>
-        </Container>
-      </section>
+     
+      <section className="our-partners" id="ourF-partners">
+  <Container>
+    <Row className="align-items-center">
+      <Col lg={4} md={12}>
+        <h1 className="section-title">Our Partners</h1>
+      </Col>
+      <Col lg={8} md={12}>
+        <div className="d-flex flex-wrap justify-content-center">
+          <Link to="#" className="partner-link">
+            <Image src={LogoPartner1} alt="Partner 1" />
+          </Link>
+          <Link to="#" className="partner-link">
+            <Image src={LogoPartner2} alt="Partner 2" />
+          </Link>
+          <Link to="#" className="partner-link">
+            <Image src={LogoPartner3} alt="Partner 3" />
+          </Link>
+          <Link to="#" className="partner-link">
+            <Image src={LogoPartner4} alt="Partner 4" />
+          </Link>
+          <Link to="#" className="partner-link">
+            <Image src={LogoPartner5} alt="Partner 5" />
+          </Link>
+        </div>
+      </Col>
+    </Row>
+  </Container>
+</section>
+<section>
+  <Container>
+    <Row className="text-center">
+      <Col lg={3} md={6} sm={6}>
+        <Image src={LogoEthereum} alt="Ethereum" />
+      </Col>
+      <Col lg={3} md={6} sm={6}>
+        <Image src={LogoBitcoin} alt="Bitcoin" />
+      </Col>
+      <Col lg={3} md={6} sm={6}>
+        <Image src={LogoTether} alt="Tether" />
+      </Col>
+      <Col lg={3} md={6} sm={6}>
+        <Image src={LogoRipple} alt="Ripple" />
+      </Col>
+    </Row>
+  </Container>
+</section>
+
     </>
   );
 };
