@@ -13,7 +13,7 @@ const Dialog = () => {
           <h1 className="icon">🤍️</h1>
         </div>
         <div >
-          <span className="linear-heading">
+          <span className="linear-heading d-flex">
             {" "}
             Because we’re changing the way things are done!{" "}
           </span>
