@@ -31,4 +31,4 @@ const CommingSoon = () => {
   );
 };
 
-export default Dialog;
+export default CommingSoon;
