@@ -14,10 +14,10 @@ function AppFooter() {
     <footer className={`app-footer`}>
       <Container>
         <Row>
-          <Col lg={3}>
+          <Col className="footerlogo"  lg={3}>
             <img src={BrandLogo} alt="brand logo" />
             <p>Take your crypto to the next level</p>
-            <Stack className="social-icons" direction="horizontal" gap={2}>
+            <Stack className="social-icons " direction="horizontal" gap={2}>
               <Link to="/coming-soon">
                 <IconFacebook />
               </Link>
@@ -35,7 +35,8 @@ function AppFooter() {
               </Link>
             </Stack>
           </Col>
-          <Col lg={3}>
+          {/* <div className="listGroup"> */}
+          <Col xs={4} md={3}>
             <ListGroup>
               <label>Company</label>
               <NavLink to="/coming-soon">About Us</NavLink>
@@ -44,7 +45,7 @@ function AppFooter() {
               <NavLink to="/coming-soon">Trust and Safety</NavLink>
             </ListGroup>
           </Col>
-          <Col lg={3}>
+          <Col xs={4} md={3}>
             <ListGroup>
               <label>Support</label>
               <NavLink to="/coming-soon">Support Center</NavLink>
@@ -53,7 +54,7 @@ function AppFooter() {
               <NavLink to="/coming-soon">Areas of Availability</NavLink>
             </ListGroup>
           </Col>
-          <Col lg={3}>
+          <Col xs={4} md={3}>
             <ListGroup>
               <label>Resources</label>
               <NavLink to="/coming-soon">Prices</NavLink>
@@ -62,9 +63,12 @@ function AppFooter() {
               <NavLink to="/coming-soon">Support</NavLink>
             </ListGroup>
           </Col>
+          {/* </div> */}
         </Row>
         <hr />
-        <div className="text-copyright">2023 © Amana Exchange. All rights reserved.</div>
+        <div className="text-copyright">
+          2023 © Amana Exchange. All rights reserved.
+        </div>
       </Container>
     </footer>
   );
