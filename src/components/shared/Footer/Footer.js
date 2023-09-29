@@ -11,7 +11,7 @@ import { ReactComponent as IconYoutube } from "../../../assets/images/icon-Youtu
 
 function AppFooter() {
   return (
-    <footer className={`app-footer`}>
+    <footer className={`app-footer mt-5`}>
       <Container>
         <Row>
           <Col className="footerlogo"  lg={3}>
