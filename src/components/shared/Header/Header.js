@@ -5,7 +5,9 @@ import Navbar from "react-bootstrap/Navbar";
 import { Stack } from "react-bootstrap";
 
 import { ReactComponent as BrandIcon } from "../../../assets/images/brand-icon.svg";
-import { ReactComponent as BrandLogoText } from "../../../assets/images/brand-logo-text.svg";
+// import { ReactComponent as BrandLogoText } from "../../../assets/images/brand-logo-text.svg";
+import { ReactComponent as BrandLogoText } from "../../../assets/images/brand-logo-name.svg";
+
 import { useEffect, useState } from "react";
 
 function AppHeader() {
