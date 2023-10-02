@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import { Col, ListGroup, Row, Stack } from "react-bootstrap";
 
-import BrandLogo from "../../../assets/images/brand-logo.png";
+import BrandLogo from "../../../assets/images/brand-logo-footer.svg";
 import { ReactComponent as IconFacebook } from "../../../assets/images/icon-Facebook.svg";
 import { ReactComponent as IconTwitter } from "../../../assets/images/icon-Twitter.svg";
 import { ReactComponent as IconInstagram } from "../../../assets/images/icon-Instagram.svg";
@@ -15,7 +15,7 @@ function AppFooter() {
       <Container>
         <Row>
           <Col className="footerlogo"  lg={3}>
-            <img src={BrandLogo} alt="brand logo" />
+            <img src={BrandLogo} style={{width:"255px"}} alt="brand logo" />
             <p>Take your crypto to the next level</p>
             <Stack className="social-icons " direction="horizontal" gap={2}>
               <Link to="/coming-soon">
@@ -36,7 +36,7 @@ function AppFooter() {
             </Stack>
           </Col>
           {/* <div className="listGroup"> */}
-          <Col xs={4} md={3}>
+          <Col  md={3}>
             <ListGroup>
               <label>Company</label>
               <NavLink to="/coming-soon">About Us</NavLink>
@@ -45,7 +45,7 @@ function AppFooter() {
               <NavLink to="/coming-soon">Trust and Safety</NavLink>
             </ListGroup>
           </Col>
-          <Col xs={4} md={3}>
+          <Col  md={3}>
             <ListGroup>
               <label>Support</label>
               <NavLink to="/coming-soon">Support Center</NavLink>
@@ -54,7 +54,7 @@ function AppFooter() {
               <NavLink to="/coming-soon">Areas of Availability</NavLink>
             </ListGroup>
           </Col>
-          <Col xs={4} md={3}>
+          <Col  md={3}>
             <ListGroup>
               <label>Resources</label>
               <NavLink to="/coming-soon">Prices</NavLink>
